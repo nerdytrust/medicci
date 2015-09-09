@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>MEDGUIDE</title>
+
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
+
+<link href="css/estilos.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/set1.css" />
+
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<script src="js/mouse.parallax.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/lightcase.css">
+<script type="text/javascript" src="js/lightcase.js"></script>
+
+<style>
+body, html {
+height: 100%;
+}
+.mouse-bg {
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
+position: fixed;
+}
+#background {
+background-image: url('images/bg5.png');
+background-repeat: no-repeat;
+background-position: 200px 100px; 
+}
+#foreground {
+
+}
+#vectores {
+background-image: url('images/bg3.png');
+background-repeat: no-repeat;
+background-position: 0px -240px; 
+}
+#fore-fore-foreground {
+
+}
+</style>
+
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $('a[data-rel^=lightcase]').lightcase({
+      video : {
+          width : 960,
+          height : 540,
+        },
+    });
+  });
+</script>
+
+</head>
+<body>
+
+  <div class="container-fluid borde-top">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <img src="images/logo.png" class="logo">
+      </div>
+    </div>
+    <div class="row grid">
+
+        <div class="col-md-4">
+          
+          <figure class="effect-layla">
+            <img src="images/6.jpg" alt="img06"/>
+            <figcaption>              
+              <h2>MG <span>Intro</span></h2>
+              <p></p>
+              <a href="http://04fd124441d36cc0375c-1e14616adde95d0fd97b20a297f4dd0e.r94.cf5.rackcdn.com/demo/Intro.mp4" data-rel="lightcase"></a>
+            </figcaption>     
+          </figure>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <figure class="effect-layla col-md-4">
+            <img src="images/7.jpg" alt="img03"/>
+            <figcaption>
+              <h2>MG <span>SECCIONES</span></h2>
+              <p></p>
+              <a href="http://04fd124441d36cc0375c-1e14616adde95d0fd97b20a297f4dd0e.r94.cf5.rackcdn.com/demo/Intro.mp4" data-rel="lightcase"></a>
+            </figcaption>     
+          </figure>
+        </div>
+
+        <div class="col-md-4">
+          <figure class="effect-layla col-md-4">
+            <img src="images/8.jpg" alt="img03"/>
+            <figcaption>
+              <h2>MG <span>DEMO</span></h2>
+              <p></p>
+              <a href="http://04fd124441d36cc0375c-1e14616adde95d0fd97b20a297f4dd0e.r94.cf5.rackcdn.com/demo/Intro.mp4" data-rel="lightcase"></a>
+            </figcaption>     
+          </figure>
+        </div>
+    
+    </div>
+  </div> <!-- container-fluid -->
+
+  <div id="background" class="mouse-bg"></div>
+
+<div id="vectores"  class="mouse-bg"></div>
+
+
+<script>
+$(document).ready(function() {
+        $('#background').mouseParallax({ moveFactor: 35 });
+        
+        $('#vectores').mouseParallax({ moveFactor: 3 });
+        
+        
+        
+      });
+</script>
+
+  <footer class="container-fluid">
+    <div class="col-md-3 col-md-offset-1" style="margin-top: 13px;">
+      &copy;Nerdy Trust | 2015
+    </div>
+  </footer>
+
+</body>
+</html>
