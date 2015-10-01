@@ -6,20 +6,20 @@
 
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
 
-<link href="css/estilos.css" rel="stylesheet">
-<link href="css/bootstrap.css" rel="stylesheet">
+<link href="../css/estilos.css" rel="stylesheet">
+<link href="../css/bootstrap.css" rel="stylesheet">
 
-<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.js"></script>
 
-<link rel="stylesheet" type="text/css" href="css/demo.css" />
-<link rel="stylesheet" type="text/css" href="css/set1.css" />
+<link rel="stylesheet" type="text/css" href="../css/demo.css" />
+<link rel="stylesheet" type="text/css" href="../css/set1.css" />
 
 <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-<script src="js/mouse.parallax.js"></script>
+<script src="../js/mouse.parallax.js"></script>
 
-<link rel="stylesheet" type="text/css" href="css/lightcase.css">
-<script type="text/javascript" src="js/lightcase.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/lightcase.css">
+<script type="text/javascript" src="../js/lightcase.js"></script>
 
 <style>
 body, html {
@@ -33,7 +33,7 @@ top: 0;
 position: fixed;
 }
 #background {
-background-image: url('images/bg5.png');
+background-image: url('../images/bg5.png');
 background-repeat: no-repeat;
 background-position: 200px 100px; 
 }
@@ -41,7 +41,7 @@ background-position: 200px 100px;
 
 }
 #vectores {
-background-image: url('images/bg3.png');
+background-image: url('../images/bg3.png');
 background-repeat: no-repeat;
 background-position: 0px -240px; 
 }
@@ -54,8 +54,9 @@ background-position: 0px -240px;
   jQuery(document).ready(function($) {
     $('a[data-rel^=lightcase]').lightcase({
       video : {
-          width : 960,
-          height : 540,
+          width: 960,
+          height: 640,
+          fullScreenModeForMobile: true
         },
     });
   });
@@ -67,7 +68,7 @@ background-position: 0px -240px;
   <div class="container-fluid borde-top">
     <div class="row">
       <div class="col-md-12 text-center">
-        <img src="images/logo.png" class="logo">
+        <img src="../images/logo.png" class="logo">
       </div>
     </div>
     <div class="row grid">
@@ -75,7 +76,7 @@ background-position: 0px -240px;
         <div class="col-md-4">
           
           <figure class="effect-layla">
-            <img src="images/6.jpg" alt="img06"/>
+            <img src="../images/6.jpg" alt="img06"/>
             <figcaption>              
               <h2>MG <span>Intro</span></h2>
               <p></p>
@@ -87,7 +88,7 @@ background-position: 0px -240px;
 
         <div class="col-md-4">
           <figure class="effect-layla col-md-4">
-            <img src="images/7.jpg" alt="img03"/>
+            <img src="../images/7.jpg" alt="img03"/>
             <figcaption>
               <h2>MG <span>SECCIONES</span></h2>
               <p></p>
@@ -98,7 +99,7 @@ background-position: 0px -240px;
 
         <div class="col-md-4">
           <figure class="effect-layla col-md-4">
-            <img src="images/8.jpg" alt="img03"/>
+            <img src="../images/8.jpg" alt="img03"/>
             <figcaption>
               <h2>MG <span>DEMO</span></h2>
               <p></p>
@@ -128,7 +129,7 @@ $(document).ready(function() {
 
   <footer class="container-fluid">
     <div class="col-md-3 col-md-offset-1" style="margin-top: 13px;">
-      &copy;Nerdy Trust | 2015
+      &copy;MEDGUIDE | Medical Strategic Solutions | 2015
     </div>
   </footer>
 
